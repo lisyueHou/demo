@@ -1,0 +1,476 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: '微軟正黑體', '標楷體', serif, sans-serif;
+    font-size: 16px;
+    color: rgb(65, 65, 65);
+}
+
+div {
+    padding: 0px;
+    margin: 0px;
+}
+
+.row {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+label {
+    padding: 2px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(0, 0, 150);
+}
+
+input {
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px rgb(200, 200, 200) solid;
+    margin: 2px;
+}
+
+textarea {
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 2px;
+    width: 100%;
+    border: 1px rgb(200, 200, 200) solid;
+    margin: 2px;
+}
+
+select {
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px rgb(200, 200, 200) solid;
+    margin: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/* input placeholder樣式 */
+
+
+/*--webkit瀏覽器專用--*/
+
+input::-webkit-input-placeholder {
+    color: rgb(200, 200, 200);
+    font-size: 0.8rem;
+}
+
+
+/*--Firefox 4-18瀏覽器專用--*/
+
+input::-moz-placeholder {
+    color: rgb(200, 200, 200);
+    font-size: 0.8rem;
+}
+
+
+/*--Firefox 19+瀏覽器專用--*/
+
+input::-moz-placeholder {
+    color: rgb(200, 200, 200);
+    font-size: 0.8rem;
+}
+
+
+/*--IE10瀏覽器專用--*/
+
+input:-ms-input-placeholder {
+    color: rgb(200, 200, 200);
+    font-size: 0.8rem;
+}
+
+
+/*按鈕*/
+
+.button {
+    font-size: 1rem;
+    padding: 2px 5px;
+    margin: 2px;
+    background-color: #00B0F0;
+    color: #fff;
+    border-radius: 5px;
+    border: 0px #00B0F0 solid;
+}
+
+
+/*顏色*/
+
+.alertMsg {
+    color: rgb(255, 0, 0);
+    font-size: 0.8rem;
+}
+
+.modGreen {
+    background-color: #00A09D;
+}
+
+.removeRed {
+    background-color: #CA434B;
+}
+
+.printBlue {
+    background-color: #006C93;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.orange {
+    background-color: #d69034;
+}
+
+.signBlue {
+    background-color: #000093;
+}
+
+.red {
+    background-color: red;
+}
+
+.textGreen {
+    color: #00EC00;
+}
+
+.textRed {
+    color: rgb(255, 0, 0);
+}
+
+.textOrange {
+    color: #ff9100;
+}
+
+
+/* 字體大小 */
+
+.fontSize_08 {
+    font-size: 0.8rem;
+}
+
+
+/*位置*/
+
+.textCenter {
+    text-align: center;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.textLeft {
+    text-align: left;
+}
+
+.none {
+    display: none !important;
+}
+
+.block {
+    display: block;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.padding_5px {
+    padding: 5px;
+}
+
+
+/* 寬度 */
+
+.width_60pc {
+    width: 60% !important;
+}
+
+.width_80pc {
+    width: 80% !important;
+}
+
+
+.width_20px {
+    width: 20px !important;
+}
+
+.width_40px {
+    width: 40px;
+}
+
+.width_60px {
+    width: 60px;
+}
+
+.width_80px {
+    width: 80px;
+}
+
+.width_100px {
+    width: 100px;
+}
+
+.width_120px {
+    width: 120px;
+}
+
+.width_160px {
+    width: 160px;
+}
+
+.width_180px {
+    width: 180px !important;
+}
+
+.width_200px {
+    width: 200px !important;
+}
+
+.width_240px {
+    width: 240px !important;
+}
+
+.width_280px {
+    width: 280px !important;
+}
+
+.width_400px {
+    width: 400px !important;
+}
+
+.width_500px {
+    width: 500px !important;
+}
+
+
+/*common page css*/
+
+.pageTitle {
+    width: 99%;
+    background-color: #237F7D;
+    color: #FFF;
+    border-radius: 5px;
+    position: relative;
+    margin: 5px auto;
+    padding: 2px 5px;
+}
+
+.pageContent {
+    width: 99%;
+    padding: 10px;
+    margin: 5px auto;
+    background-color: #FFF;
+    color: #3F3F3F;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 0px rgb(83, 83, 83);
+}
+
+.pageContent label {
+    font-size: 1rem;
+}
+
+.pageContent input,
+select {
+    width: 160px;
+}
+
+.btnBox {
+    text-align: center;
+    padding: 2px;
+}
+
+.addButBox {
+    width: 100%;
+    margin: 2px auto;
+    padding: 2px;
+}
+
+.img {
+    width: 40px;
+}
+
+
+/* 分頁 */
+
+.paginationBox {
+    position: relative;
+    text-align: left;
+    font-size: 0.8rem;
+    padding: 10px 5px 5px 5px;
+}
+
+.totalCount {
+    display: inline-block;
+    position: relative;
+    padding: 0px 5px;
+}
+
+.pagination {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    padding: 0px 5px;
+}
+
+.pagination select {
+    font-size: 0.8rem;
+    height: 25px;
+    width: auto;
+    padding: 2px;
+}
+
+.pageBtn {
+    border: 0;
+    background-color: gray;
+    color: #fff7f7;
+    border-radius: 5px;
+}
+
+.pageMsg {
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+
+/* 表格 */
+
+.contentsList {
+    padding: 5px;
+}
+
+.contentsTable {
+    width: 100%;
+}
+
+.contentsTable th {
+    background: #FFF;
+    color: rgb(0, 0, 150);
+    font-weight: bold;
+    text-align: center;
+    border: #e0e0e0 1px solid;
+}
+
+
+/* 偶數欄位 */
+
+.contentsTable tr:nth-child(even) {
+    background: #f3f7ff;
+}
+
+
+/* 奇數欄位 */
+
+.contentsTable tr:nth-child(odd) {
+    background: #FFF;
+}
+
+.contentsTable td {
+    border: #e0e0e0 1px solid;
+    padding: 2px;
+    word-break: break-all;
+}
+
+.contentsTable a {
+    color: #00B0F0;
+}
+
+.contentsTable a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* 小視窗 */
+
+#hidebg {
+    color: #000;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    display: none;
+    z-index: 3;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    min-height: 100%;
+}
+
+.popupbox {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0px auto;
+    margin-top: 100px;
+    text-align: left;
+    box-shadow: 5px 5px 5px rgba(88, 88, 88, 0.7);
+    border-radius: 5px;
+    color: #000;
+    background-color: #fff;
+    min-width: 450px;
+    min-height: 200px;
+    max-height: auto;
+    display: none;
+}
+
+.popupButton {
+    font-size: 1.4rem;
+    font-weight: 900;
+    float: right;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0px 5px;
+    color: #000;
+}
+
+.popupTitle {
+    font-size: 1.4rem;
+    font-weight: 900;
+    padding: 5px 10px;
+}
+
+.topBorder {
+    width: 98%;
+    margin: 0px auto;
+    border: rgb(139, 139, 139) 1px solid;
+}
+
+.popupContent {
+    padding: 0px 10px;
+    min-height: 120px;
+    width: auto;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.popupContent iframe {
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+
+/* 列印 */
+
+@media print {
+    .noPrint {
+        display: none;
+    }
+}
