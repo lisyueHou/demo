@@ -96,7 +96,7 @@ define('CADIMG_WIDTH', 360); //CAD圖片寬度
 define('CADIMG_HEIGHT', 310); //CAD圖片高度
 define('BASIC_FUNCTION_ID', [21]); //預設群組權限id(沒有顯示在頁面上的)
 
-//液壓系統(csu)
-define('CSU_BASEURL', 'http://localhost/outsource/csuhydsys/'); //BASE URL
-define('CSU_WELCOME_PAGE', CSU_BASEURL . 'dashboard/index'); //液壓系統(csu)首頁
-define('CSU_LOGIN_PAGE', CSU_BASEURL . 'login_api/login'); //液壓系統(csu) 登入API
+//液壓系統
+define('CSU_BASEURL', ''); //BASE URL
+define('CSU_WELCOME_PAGE', CSU_BASEURL . 'dashboard/index'); //液壓系統首頁
+define('CSU_LOGIN_PAGE', CSU_BASEURL . 'login_api/login'); //液壓系統登入API

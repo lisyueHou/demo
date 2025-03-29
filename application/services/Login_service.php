@@ -40,7 +40,7 @@ class Login_service extends MY_Service
 			return $result;
 		} else {
 			switch ($data['system']) {
-				case 1: //轉至液壓系統(csu)
+				case 1: //轉至液壓系統
 					$url = CSU_LOGIN_PAGE;
 					$ch = curl_init();
 					curl_setopt($ch, CURLOPT_URL, $url);
@@ -62,7 +62,7 @@ class Login_service extends MY_Service
 					}
 
 					break;
-				default: //預設系統-管線系統(csurobotsys)
+				default: //預設系統-管線系統
 					$r = $this->users_model->check_login($data);
 					if ($r) {
 						$result = array(
@@ -84,7 +84,7 @@ class Login_service extends MY_Service
 
 	public function _loginAPI($data)
 	{
-		$url = "http://localhost/outsource/csuhydsys/login_api/login";
+		$url = "http://localhost/login_api/login";
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_URL, $url);
 		curl_setopt($ch, CURLOPT_POST, true);
