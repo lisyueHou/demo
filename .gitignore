@@ -30,9 +30,3 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.sublime-project
 /tests/tests/
 /tests/results/
-
-#myshine
-application/config/config.php
-application/config/database.php
-appoint/images/cad/*
-appoint/uploads/*
